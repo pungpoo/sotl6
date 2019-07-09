@@ -1,0 +1,18 @@
+footer{
+    background-color: dimgray;
+}
+#mainNav{
+    background-color: dimgray;
+}
+#regis{
+    height: 100%;
+}
+.btn-regis{
+    background-color: darkgoldenrod;
+    color: rgb(247, 243, 243);
+}
+.btn-regis:hover{
+    background-color: #fed136;
+    color: black;
+}
+
