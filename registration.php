@@ -22,18 +22,19 @@
 </head>
 
 <body id="page-top">
-
   <?php include "navbar.html"; ?>
 
   <section class="bg-light" id="regis">
     <div class="container ">
       <div class="row">
-        <div class=" col-md-10 offset-1">
+        <div class=" col-md-10 offset-1" id="single_regis">
           <div class="card">
-            <h5 class="card-header text-center text-uppercase bg-info">SOTL6 - Registration</h5>
-            <div class="card-body">
+            <h5 class="card-header text-center text-uppercase bg-info">SOTL6 - Regular Registration</h5>
+            <div class="card-body font-weight-bold">
+              <div><a href="registration_group.php" class="btn btn-success mb-3">ลงทะเบียนแบบกลุ่ม(สำหรับ 5 ท่าน)</a></div>
               <form class="form" id="createStudent" name="createStudent" action="check_regis.php" method="post">
-                <div class="form-row">
+                
+                <div class="form-row ">
                   <div class="form-group col-md-4">
                     <label for="title_name_eng">คำนำหน้าชื่อ (Title)*</label>
                     <select class="form-control" id="title_name_eng" name="title_name_eng">
@@ -65,22 +66,28 @@
                   <div class="form-group col-md-6">
                     <label for="fname_eng">ชื่อ (Eng)*</label>
                     <input type="text" class="form-control" id="fname_eng" name="fname_eng"
-                      placeholder="ชื่อ(ภาษาอังกฤษ)" required>
+                      placeholder="ชื่อ(ภาษาอังกฤษ)" required oninvalid="this.setCustomValidity('กรุณาระบุชื่อ')"
+                      oninput="setCustomValidity('')" autocomplete="off">
                   </div>
                   <div class="form-group col-md-6">
                     <label for="lname_eng">นามสกุล (Eng)*</label>
                     <input type="text" class="form-control" id="lname_eng" name="lname_eng"
-                      placeholder="นามสกุล(ภาษาอังกฤษ)" required>
+                      placeholder="นามสกุล(ภาษาอังกฤษ)" required oninvalid="this.setCustomValidity('กรุณาระบุนามสกุล')"
+                      oninput="setCustomValidity('')" autocomplete="off">
                   </div>
                 </div>
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <label for="fname_th">ชื่อ (ไทย)*</label>
-                    <input type="text" class="form-control" id="fname_th" name="fname_th" placeholder="ชื่อ(ภาษาไทย)" required>
+                    <input type="text" class="form-control" id="fname_th" name="fname_th" placeholder="ชื่อ(ภาษาไทย)"
+                      required oninvalid="this.setCustomValidity('กรุณาระบุชื่อ')" oninput="setCustomValidity('')"
+                      autocomplete="off">
                   </div>
                   <div class="form-group col-md-6">
                     <label for="lname_th">นามสกุล (ไทย)*</label>
-                    <input type="text" class="form-control" id="lname_th" name="lname_th" placeholder="นามสกุล(ภาษาไทย)" required>
+                    <input type="text" class="form-control" id="lname_th" name="lname_th" placeholder="นามสกุล(ภาษาไทย)"
+                      required oninvalid="this.setCustomValidity('กรุณาระบุนามสกุล')" oninput="setCustomValidity('')"
+                      autocomplete="off">
                   </div>
                 </div>
                 <div class="form-row">
@@ -93,10 +100,11 @@
                   </div>
                   <div class="form-group col-md-2">
                     <label for="age">อายุ*</label>
-                    <input type="text" class="form-control" id="age" name="age" placeholder="อายุ">
+                    <input type="number" class="form-control" max="99" id="age" name="age" placeholder="อายุ" required
+                      oninvalid="this.setCustomValidity('กรุณาตรวจสอบอายุ')" oninput="setCustomValidity('')">
                   </div>
                   <div class="form-group col-md-4">
-                    <label for="nationality">สัญชาติ</label>
+                    <label for="nationality">สัญชาติ*</label>
                     <input type="text" class="form-control" id="nationality" name="nationality" placeholder="สัญชาติ">
                   </div>
                   <!-- <div class="form-group col-md-4">
@@ -107,15 +115,19 @@
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <label for="email">E-mail*</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required
+                      oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
+                      autocomplete="off">
                   </div>
                   <div class="form-group col-md-6">
                     <label for="phone">โทรศัพท์*</label>
-                    <input type="number" class="form-control" id="phone" name="phone" placeholder="โทรศัพท์">
+                    <input type="number" class="form-control" id="phone" name="phone" placeholder="โทรศัพท์" required
+                      oninvalid="this.setCustomValidity('กรุณาระบุเบอร์โทรศัพท์')" oninput="setCustomValidity('')"
+                      autocomplete="off">
                   </div>
                 </div>
                 <!-- ที่อยู่ -->
-                <div class="bg-light p-2">
+                <!-- <div class="bg-light p-2">
                   <div class="form-row ">
                     <label for="adds">ที่อยู่</label>
                   </div>
@@ -148,18 +160,20 @@
                         placeholder="รหัสไปรษณีย์">
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <!-- end ที่อยู่ -->
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <label for="grad-from">หน่วยงานต้นสังกัด*</label>
                     <input type="text" class="form-control" id="affiliation" name="affiliation"
-                      placeholder="หน่วยงานต้นสังกัด">
+                      placeholder="หน่วยงานต้นสังกัด" required
+                      oninvalid="this.setCustomValidity('กรุณาระบุหน่วยงานต้นสังกัด')" oninput="setCustomValidity('')"
+                      autocomplete="off">
                   </div>
                   <div class="form-group col-md-6">
                     <label for="workplace">สถานที่ทำงานปัจจุบัน</label>
                     <input type="text" class="form-control" id="workplace" name="workplace"
-                      placeholder="สถานที่ทำงานปัจจุบัน(ถ้ามี)">
+                      placeholder="สถานที่ทำงานปัจจุบัน(ถ้ามี)" autocomplete="off">
                   </div>
                 </div>
                 <div class="form-row bg-light ">
@@ -168,26 +182,44 @@
                     <!-- Group of material radios - option 1 -->
                     <div class="pl-3">
                       <div class="custom-control custom-radio">
-                        <input type="radio" id="food" name="food" class="custom-control-input" checked>
-                        <label class="custom-control-label" for="customRadio1">ทั่วไป</label>
+                        <input type="radio" id="food1" name="food" class="custom-control-input" checked>
+                        <label class="custom-control-label" for="food1">ทั่วไป</label>
                       </div>
                       <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2">มังสวิรัติ</label>
+                        <input type="radio" id="food2" name="food" class="custom-control-input">
+                        <label class="custom-control-label" for="food2">มังสวิรัติ</label>
                       </div>
                       <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2">ฮาลาล</label>
+                        <input type="radio" id="food3" name="food" class="custom-control-input">
+                        <label class="custom-control-label" for="food3">ฮาลาล</label>
                       </div>
                     </div>
                   </div>
                 </div>
-                
+                <!-- Regis fee -->
+                <div class="form-row bg-info mt-3">
+                  <div class="form-group col-md-6">
+                    <label>อัตราค่าลงทะเบียน</label>
+                    <!-- Group of material radios - option 1 -->
+                    <div class="pl-3">
+                      <div class="custom-control">
+                        <label>- Early Bird</label>
+                      </div>
+                      <div class="custom-control">
+                        <label>- Regular</label>
+                      </div>
+                      <div class="custom-control">
+                        <label>- group</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Regis fee -->
             </div>
-            <input type="submit" name="submit" class="btn btn-regis mb-5 col-4 offset-4" value="บันทึกข้อมูล">
-          </form>
+            <input type="submit" name="submit" class="btn btn-success mb-5 col-4 offset-4" value="ยืนยันการลงทะเบียน">
+            </form>
+            
           </div>
-
           <!-- <div class="form-group">
               <label for="adds">ที่อยู่</label>
               <textarea class="form-control" id="adds" name="adds" rows="5"
@@ -207,32 +239,26 @@
           <!-- <input type="hidden" name="aa" value="1"> -->
 
         </div>
+
       </div>
     </div>
     </div>
     </div>
   </section>
-
-
   <!-- Footer -->
   <?php 
   include "footer.html";
   ?>
-
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
   <!-- Contact form JavaScript -->
   <script src="js/jqBootstrapValidation.js"></script>
   <script src="js/contact_me.js"></script>
-
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
-
 </body>
 
 </html>

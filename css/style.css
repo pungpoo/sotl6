@@ -15,4 +15,11 @@ footer{
     background-color: #fed136;
     color: black;
 }
+.gray{
+    /* background-color: lightslategray; */
+    background-color: #D6DBDF;
+    border-radius: 5px;
+    
+
+}
 
