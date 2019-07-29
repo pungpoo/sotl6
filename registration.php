@@ -10,6 +10,7 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
@@ -22,6 +23,7 @@
 </head>
 
 <body id="page-top">
+<a id="button"></a>
   <?php include "navbar.html"; ?>
 
   <section class="bg-light" id="regis">
@@ -32,8 +34,7 @@
             <h5 class="card-header text-center text-uppercase bg-info">SOTL6 - Regular Registration</h5>
             <div class="card-body font-weight-bold">
               <div><a href="registration_group.php" class="btn btn-success mb-3">ลงทะเบียนแบบกลุ่ม(สำหรับ 5 ท่าน)</a></div>
-              <form class="form" id="createStudent" name="createStudent" action="check_regis.php" method="post">
-                
+              <form class="form" id="regisForm" name="regisForm" action="check_regis.php" method="post">
                 <div class="form-row ">
                   <div class="form-group col-md-4">
                     <label for="title_name_eng">คำนำหน้าชื่อ (Title)*</label>
@@ -47,8 +48,8 @@
                   </div>
                   <!-- ตำแหน่งวิชาการ -->
                   <div class="form-group col-md-4">
-                    <label for="title_name_eng">ตำแหน่งทางวิชาการ</label>
-                    <select class="form-control" id="title_name_eng" name="title_name_eng">
+                    <label for="academic_position">ตำแหน่งทางวิชาการ</label>
+                    <select class="form-control" id="academic_position" name="academic_position">
                       <option value="0">ไม่ระบุ</option>
                       <option value="1">อาจารย์</option>
                       <option value="2">ผศ.</option>
@@ -58,8 +59,8 @@
                   </div>
                   <!-- ตำแหน่งบริหาร -->
                   <div class="form-group col-md-4">
-                    <label for="title_name_eng">ตำแหน่งบริหาร</label>
-                    <input type="text" class="form-control" id="fname_eng" name="fname_eng" placeholder="ตำแหน่งบริหาร">
+                    <label for="manage_position">ตำแหน่งบริหาร</label>
+                    <input type="text" class="form-control" id="manage_position" name="manage_position" placeholder="ตำแหน่งบริหาร">
                   </div>
                 </div>
                 <div class="form-row">
@@ -259,6 +260,8 @@
   <script src="js/contact_me.js"></script>
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+  <script src="js/top_page.js"></script>
+  
 </body>
 
 </html>

@@ -3,12 +3,14 @@
     $username = "root";
     $password = "BbilkB414148";
     $dbname = "test";
-// Create connection
-$conn = new mysqli($servername, $username, $password,$dbname);
-$conn->set_charset("utf8");
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-// echo "Connected successfully";
+    try {
+        $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+        // set the PDO error mode to exception
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        echo "เชื่อมต่อสำเร็จ"; 
+        }
+    catch(PDOException $e)
+        {
+        echo "Connection failed: " . $e->getMessage();
+        }
 ?>

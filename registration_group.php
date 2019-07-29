@@ -10,6 +10,7 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
@@ -22,8 +23,8 @@
 </head>
 
 <body id="page-top">
+<a id="button"></a>
   <?php include "navbar.html"; ?>
-
   <section class="bg-light" id="regis">
     <div class="container ">
       <div class="row">
@@ -911,6 +912,7 @@
   <script src="js/contact_me.js"></script>
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+  <script src="js/top_page.js"></script>
 </body>
 
 </html>
