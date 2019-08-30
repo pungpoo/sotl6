@@ -119,9 +119,9 @@
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="email">E-mail*</label>
-                        <input type="email" class="form-control" id="email" name="email_1" placeholder="E-mail" required
+                        <input type="email" class="form-control" id="email_1" name="email_1" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
-                          autocomplete="off">
+                          >
                       </div>
                       <div class="form-group col-md-6">
                         <label for="phone">โทรศัพท์*</label>
@@ -255,9 +255,11 @@
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="email">E-mail*</label>
-                        <input type="email" class="form-control" id="email" name="email_2" placeholder="E-mail" required
+                        <input type="email" class="form-control" id="email_2" name="email_2" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
-                          autocomplete="off">
+                          >
+                          
+                          
                       </div>
                       <div class="form-group col-md-6">
                         <label for="phone">โทรศัพท์*</label>
@@ -391,7 +393,7 @@
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="email">E-mail*</label>
-                        <input type="email" class="form-control" id="email" name="email_3" placeholder="E-mail" required
+                        <input type="email" class="form-control" id="email_3" name="email_3" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
                           autocomplete="off">
                       </div>
@@ -527,7 +529,7 @@
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="email">E-mail*</label>
-                        <input type="email" class="form-control" id="email" name="email_4" placeholder="E-mail" required
+                        <input type="email" class="form-control" id="email_4" name="email_4" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
                           autocomplete="off">
                       </div>
@@ -663,7 +665,7 @@
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="email">E-mail*</label>
-                        <input type="email" class="form-control" id="email" name="email_5" placeholder="E-mail" required
+                        <input type="email" class="form-control" id="email_5" name="email_5" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
                           autocomplete="off">
                       </div>
@@ -799,7 +801,7 @@
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="email">E-mail*</label>
-                        <input type="email" class="form-control" id="email" name="email_6" placeholder="E-mail" required
+                        <input type="email" class="form-control" id="email_6" name="email_6" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
                           autocomplete="off">
                       </div>
@@ -911,7 +913,7 @@
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
   <script src="js/top_page.js"></script>
-  <script src="js/check_regis.js"></script>
+  <script src="js/check_regis_group.js"></script>
 </body>
 
 </html>

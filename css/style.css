@@ -77,6 +77,13 @@ footer{
       margin: 30px;
     }
   }
+  @media (max-width: 768px) {
+    .card {
+      margin-top: 70px;
+      
+    }
+ 
+  }
   .content h1 {
     margin-bottom: -10px;
     color: #03a9f4;
@@ -98,3 +105,4 @@ footer{
   input[type=number] {
     -moz-appearance:textfield; /* Firefox */
   }
+  

@@ -25,7 +25,6 @@
 <body id="page-top">
 <a id="button"></a>
   <?php include "navbar.html"; ?>
-
   <section class="bg-light" id="regis">
     <div class="container ">
       <div class="row">
@@ -37,14 +36,22 @@
               <form class="form" id="regisForm" name="regisForm" action="check_regis.php" method="post">
                 <div class="form-row ">
                   <div class="form-group col-md-4">
-                    <label for="title_name_eng">คำนำหน้าชื่อ (Title)*</label>
-                    <select class="form-control" id="title_name_eng" name="title_name_eng">
+                    <label for="title_name">คำนำหน้าชื่อ(ภาษาไทย)*</label>
+                    <input class="form-control" list="title_name" name="title_name" placeholder="โปรดระบุ">
+                      <datalist id="title_name" >
+                        <option value="นาย">
+                        <option value="นาง">
+                        <option value="นางสาว">
+                        <option value="ดร.">
+                        <option value="อื่นๆ โปรดระบุ....">
+                      </datalist>
+                    <!-- <select class="form-control" id="title_name_eng" name="title_name_eng">
                       <option value="0">เลือก</option>
                       <option value="1">นาย/Mr.</option>
                       <option value="2">นาง/Miss</option>
                       <option value="3">นางสาว/Mrs.</option>
                       <option value="4">ดร./Dr.</option>
-                    </select>
+                    </select> -->
                   </div>
                   <!-- ตำแหน่งวิชาการ -->
                   <div class="form-group col-md-4">
