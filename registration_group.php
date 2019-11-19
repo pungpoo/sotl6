@@ -34,7 +34,7 @@
             <div class="card-body font-weight-bold">
               <div><a href="registration.php" class="btn btn-success mb-3">ลงทะเบียน(สำหรับ 1 ท่าน)</a></div>
               <!-- Form 1 -->
-              <form class="form" id="createStudent" name="createStudent" action="check_regis.php" method="post">
+              <form class="form" id="regis_g" name="regis_g" action="check_regis.php" method="post">
                 <div class="card mb-2">
                   <h6 class="card-header text-center text-uppercase bg-info">ผู้ลงทะเบียน 1</h6>
                   <div class="m-2">
@@ -119,6 +119,7 @@
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="email">E-mail*</label>
+                        <span id="check_email_1"></span>
                         <input type="email" class="form-control" id="email_1" name="email_1" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
                           >
@@ -254,12 +255,11 @@
                     </div>
                     <div class="form-row">
                       <div class="form-group col-md-6">
-                        <label for="email">E-mail*</label>
+                        <label for="email_2">E-mail*</label>
+                        <span id="check_email_2"></span>
                         <input type="email" class="form-control" id="email_2" name="email_2" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
                           >
-                          
-                          
                       </div>
                       <div class="form-group col-md-6">
                         <label for="phone">โทรศัพท์*</label>
@@ -268,7 +268,6 @@
                           oninput="setCustomValidity('')" autocomplete="off">
                       </div>
                     </div>
-
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="grad-from">หน่วยงานต้นสังกัด*</label>
@@ -393,6 +392,7 @@
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="email">E-mail*</label>
+                        <span id="check_email_3"></span>
                         <input type="email" class="form-control" id="email_3" name="email_3" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
                           autocomplete="off">
@@ -529,6 +529,7 @@
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="email">E-mail*</label>
+                        <span id="check_email_4"></span>
                         <input type="email" class="form-control" id="email_4" name="email_4" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
                           autocomplete="off">
@@ -665,6 +666,7 @@
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="email">E-mail*</label>
+                        <span id="check_email_5"></span>
                         <input type="email" class="form-control" id="email_5" name="email_5" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
                           autocomplete="off">
@@ -801,9 +803,10 @@
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="email">E-mail*</label>
+                        <span id="check_email_6"></span>
                         <input type="email" class="form-control" id="email_6" name="email_6" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
-                          autocomplete="off">
+                          >
                       </div>
                       <div class="form-group col-md-6">
                         <label for="phone">โทรศัพท์*</label>
@@ -871,7 +874,7 @@
             </div>
             <!-- Regis fee -->
           </div>
-          <input type="submit" name="submit" class="btn btn-success mb-5 col-4 offset-4" value="ยืนยันการลงทะเบียน">
+          <input type="submit" name="submit" id="btnsubmit"  class="btn btn-success mb-5 col-4 offset-4" value="ยืนยันการลงทะเบียน">
           </form>
  
         </div>
