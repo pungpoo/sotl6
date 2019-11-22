@@ -106,3 +106,16 @@ footer{
     -moz-appearance:textfield; /* Firefox */
   }
   
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 80%; */
+  }
+
+  .mark {
+    background-color: royalblue;
+    color: black;
+    border-radius: 5px;
+  }
+  

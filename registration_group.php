@@ -30,7 +30,7 @@
       <div class="row">
         <div class=" col-md-10 offset-1" id="single_regis">
           <div class="card">
-            <h5 class="card-header text-center text-uppercase bg-info">SOTL6 - Regular Registration</h5>
+            <h5 class="card-header text-center text-uppercase bg-info">SOTL6 - Group Registration</h5>
             <div class="card-body font-weight-bold">
               <div><a href="registration.php" class="btn btn-success mb-3">ลงทะเบียน(สำหรับ 1 ท่าน)</a></div>
               <!-- Form 1 -->
@@ -118,7 +118,7 @@
                     </div>
                     <div class="form-row">
                       <div class="form-group col-md-6">
-                        <label for="email">E-mail*</label>
+                        <label for="email_1">E-mail*</label>
                         <span id="check_email_1"></span>
                         <input type="email" class="form-control" id="email_1" name="email_1" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
@@ -391,7 +391,7 @@
                     </div>
                     <div class="form-row">
                       <div class="form-group col-md-6">
-                        <label for="email">E-mail*</label>
+                        <label for="email_3">E-mail*</label>
                         <span id="check_email_3"></span>
                         <input type="email" class="form-control" id="email_3" name="email_3" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
@@ -528,7 +528,7 @@
                     </div>
                     <div class="form-row">
                       <div class="form-group col-md-6">
-                        <label for="email">E-mail*</label>
+                        <label for="email_4">E-mail*</label>
                         <span id="check_email_4"></span>
                         <input type="email" class="form-control" id="email_4" name="email_4" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
@@ -665,7 +665,7 @@
                     </div>
                     <div class="form-row">
                       <div class="form-group col-md-6">
-                        <label for="email">E-mail*</label>
+                        <label for="email_5">E-mail*</label>
                         <span id="check_email_5"></span>
                         <input type="email" class="form-control" id="email_5" name="email_5" placeholder="E-mail" required
                           oninvalid="this.setCustomValidity('กรุณาตรวจสอบ E-mail')" oninput="setCustomValidity('')"
@@ -907,16 +907,17 @@
   <?php 
   include "footer.html";
   ?>
+  
+</body>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
   <script src="js/top_page.js"></script>
   <script src="js/check_regis_group.js"></script>
-</body>
-
+  <!-- check same mail -->
+  <script src="js/check_same_mail.js"></script>
 </html>

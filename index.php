@@ -60,7 +60,7 @@
   </section>
 
   <!-- Services -->
-  <section class="page-section" id="services">
+  <!-- <section class="page-section" id="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -95,7 +95,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Portfolio Grid -->
   <section class="bg-light page-section" id="sessions">
@@ -186,12 +186,13 @@
   </section>
 
   <!-- About -->
-  <section class="page-section" id="about">
+  <section class="page-section" id="program">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase mb-5">Program</h2>
+
+          <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
         </div>
       </div>
       <div class="row">
@@ -203,8 +204,8 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>2009-2011</h4>
-                  <h4 class="subheading">Our Humble Beginnings</h4>
+                  <h4>Day 1</h4>
+                  <h4 class="subheading">Opening</h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
@@ -217,8 +218,8 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>March 2011</h4>
-                  <h4 class="subheading">An Agency is Born</h4>
+                  <h4>Day 1</h4>
+                  <h4 class="subheading">Session 1</h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
@@ -231,8 +232,8 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 class="subheading">Transition to Full Service</h4>
+                  <h4>Day 2</h4>
+                  <h4 class="subheading">Session 2</h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
@@ -245,8 +246,8 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 class="subheading">Phase Two Expansion</h4>
+                  <h4>Day 2</h4>
+                  <h4 class="subheading">Session 3</h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
@@ -267,11 +268,11 @@
   </section>
 
   <!-- Team -->
-  <section class="bg-light page-section" id="lecturer">
+  <section class="bg-light page-section" id="keynote">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Lecturer</h2>
+          <h2 class="section-heading text-uppercase">Keynote</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
