@@ -55,7 +55,7 @@ try {
         // header( "Location: index.php" );
          echo "<script>
                     alert('การลงทะเบียนของท่านเรียบร้อยแล้ว กรูณาตรวจสอบ Email ของท่าน');
-                    window.location='index.php';
+                    window.location='register_list.php';
 				</script>";
     }
     // echo 'การลงทะเบียนของท่านเรียบร้อยแล้ว กรูณาตรวจสอบ Inbox ใน Email';

@@ -202,7 +202,23 @@
                     <input type="text" class="form-control" id="food_allergy" name="food_allergy"
                       placeholder="ระบุอาหารที่แพ้ (Please specify all food allergies)">
                   </div>
+                  <div class="form-group col-md-6  mt-2">
+                    <label>ทราบข่าวสารของงานนี้จากที่ใด<red>*</red></label>
+                    <input class="form-control" list="news" name="news" placeholder="โปรดระบุ">
+                    <datalist id="news">
+                      <option value="Website">
+                      <option value="Email">
+                      <option value="Facebook">
+                      <option value="Line">
+                      <option value="หนังสือแจ้งเวียน">
+                      <option value="ป้ายติดประกาศ">
+                      <option value="เพื่อน/คนรู้จัก">
+                      <option value="วิทยากรที่บรรยายในงาน">
+                      <option value="อื่นๆ โปรดระบุ (Other, Please specify)">
+                    </datalist>
+                  </div>
                 </div>
+
                 <!-- Workshop -->
                 <div class="form-row  mt-2">
                   <div class="form-group col-12 gray mt-2">

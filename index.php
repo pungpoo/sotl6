@@ -28,11 +28,16 @@
   <section>
     <div>
       <img src="img/SoTL6_Poster.jpg" class="center imgcover">
+      <div class="embed-responsive embed-responsive-16by9">
+      <iframe src="https://www.youtube.com/embed/G2nUA9AI_24" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
       <a class="btn btn-xl text-uppercase js-scroll-trigger center btn-regis" href="registration.php">
         <h2>Registration</h2>
       </a>
     </div>
   </section>
+
   <!-- keynote -->
   <section class="bg-light" style="padding-bottom: 50px; padding-top: 50px;">
     <div class="container">
@@ -43,7 +48,7 @@
         </div>
       </div>
       <div class="row">
-      <div class="col-sm-6">
+        <div class="col-sm-6">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/Assoc.Prof.Soranit.png" alt="">
             <h5 class="mt-2">รองศาสตราจารย์ นพ.สรนิต ศิลธรรม</h5>
@@ -64,7 +69,7 @@
             <p class="text-muted">ผู้อำนวยการโครงการมหาวิทยาลัยไซเบอร์ไทย(TCU) </p>
           </div>
         </div>
-        
+
         <!-- </div>
       <div class="row"> -->
         <div class="col-sm-6">
@@ -92,11 +97,11 @@
         </div>
       </div> -->
       <div class="col-lg-8 mx-auto text-center">
-          <button class="btn btn-regis" onclick="window.location.href='keynote.php'">ดูเพิ่มเติม</button>
-          <!-- <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p> -->
-        </div>
+        <button class="btn btn-regis" onclick="window.location.href='keynote.php'">ดูเพิ่มเติม</button>
+        <!-- <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p> -->
+      </div>
     </div>
-    
+
   </section>
   <!-- About -->
   <section class="page-section" id="program">
@@ -188,9 +193,10 @@
           </ul>
           <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-              <button class="btn btn-regis mb-2" onclick="window.location.href='program.php'"><i class="far fa-eye"></i> ดูกำหนดการทั้งหมด</button><br>
+              <button class="btn btn-regis mb-2" onclick="window.location.href='program.php'"><i class="far fa-eye"></i>
+                ดูกำหนดการทั้งหมด</button><br>
               <a href="img/sotl6_invitation.pdf" class="btn btn-lg btn-info" target="_blank">
-              <i class="fas fa-download"></i> Download เอกสารโครงการ </a>
+                <i class="fas fa-download"></i> Download เอกสารโครงการ </a>
             </div>
           </div>
         </div>

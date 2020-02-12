@@ -23,11 +23,22 @@
         $workshop_day2 = $_POST["workshop_day2"];
         $regis_group = "0";
         $regis_payment_rate = "eb";
+        $regis_date = date("Y-m-d H:i:s");
+        $regis_news = $_POST["news"];
+
+        $stmt_name_check = $conn->query("SELECT regis_name,regis_lastname FROM register where regis_name = '".$_POST["fname"]."' and regis_lastname = '".$_POST["lname"]."' ");
+        $name_check = $stmt_name_check->fetch();
 
         $stmt_email_check = $conn->query("SELECT regis_mail FROM register where regis_mail = '".$_POST["email"]."' ");
         $email_check = $stmt_email_check->fetch();
 
-        if(!empty($email_check)){
+        if(!empty($name_check)){
+            echo "
+            <script>
+            alert('ชื่อและนามสกุลนี้ นี้มีผู้ลงทะเบียนแล้ว หากท่านต้องการเปลี่ยนแปลงข้อมูลลงทะเบียนของชื่อและนามสกุลนี้ กรุณาติดต่อเจ้าหน้าที่');
+            window.history.back();
+            </script>";
+        }else if(!empty($email_check)){
             echo "
             <script>
             alert('Email นี้มีผู้ใช้งานแล้ว');
@@ -60,9 +71,11 @@
             regis_workshop_day1,
             regis_workshop_day2,
             regis_group,
-            regis_payment_rate
+            regis_payment_rate,
+            regis_date,
+            regis_news
             ) 
-        VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
+        VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
         $stmt->bindParam(1, $title_name);
         $stmt->bindParam(2, $fname);
         $stmt->bindParam(3, $lname);
@@ -83,6 +96,8 @@
         $stmt->bindParam(18, $workshop_day2);
         $stmt->bindParam(19, $regis_group);
         $stmt->bindParam(20, $regis_payment_rate);
+        $stmt->bindParam(21, $regis_date);
+        $stmt->bindParam(22, $regis_news);
             try {
                 //echo $stmt;
                 $stmt->execute();

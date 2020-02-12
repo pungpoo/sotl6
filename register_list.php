@@ -69,16 +69,22 @@
                                             <th class="text-center">รหัสลงทะเบียน</th>
                                             <th class="text-center">ชื่อ-สกุล</th>
                                             <th class="text-center">สังกัด</th>
+                                            <th class="text-center">วันที่ลงทะเบียน</th>
                                             <th class="text-center">สถานะ</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <?php
+                                         include ("datethai.php");
                                             $i=1;
-                                            $stmt = $conn->query("SELECT id,regis_title_name,regis_name,regis_lastname,regis_affiliation,regis_payment_status FROM register where regis_payment_status != 9 order by id asc");
+                                            $stmt = $conn->query("SELECT id,regis_title_name,regis_name,regis_lastname,regis_affiliation,regis_date,regis_payment_status FROM register where regis_payment_status != 9 order by id asc");
                                             while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
                                             $title = explode(" ",$row['regis_title_name']);
                                             $title = $title[0];
+
+                                            // Date Format
+                                          
+
                                         ?>
                                         <tr>
                                             <td class="text-center"><?php echo $i;?>
@@ -89,6 +95,7 @@
                                             </td>
                                             <td><?php echo  $title.$row['regis_name']." ".$row['regis_lastname'];?></td>
                                             <td><?php echo $row['regis_affiliation'];?></td>
+                                            <td><?php echo regis_date($row['regis_date']);?> </td>
                                             <?php 
                                                 if ($row['regis_payment_status'] == 0) {
                                                     echo "<td class='text-center mt-2  badge badge-warning'>รอชำระเงิน</td>";
@@ -134,14 +141,22 @@
                         "targets": 1
                     },
                     {
-                        "width": "35%",
+                        "width": "30%",
                         "targets": 2
                     },
                     {
-                        "width": "10%",
+                        "width": "25%",
+                        "targets": 3
+                    },{
+                        "width": "15%",
                         "targets": 4
+                    },
+                    {
+                        "width": "10%",
+                        "targets": 5
                     }
-                ]
+                ],
+                "pageLength": 20
             });
         });
     </script>

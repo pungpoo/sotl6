@@ -57,7 +57,7 @@
                                     <tbody>
                                         <?php
                                             $i=1;
-                                            $stmt = $conn->query("SELECT id,regis_title_name,regis_name,regis_lastname,regis_mail,regis_phone,regis_affiliation,regis_payment_status FROM register where regis_payment_status != 9 order by id asc");
+                                            $stmt = $conn->query("SELECT id,regis_title_name,regis_name,regis_lastname,regis_mail,regis_phone,regis_affiliation,regis_payment_status FROM register order by id asc");
                                             while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
                                             $title = explode(" ",$row['regis_title_name']);
                                             $title = $title[0];
@@ -80,6 +80,8 @@
                                                     echo "<td class='text-center mt-2  badge badge-warning'>รอชำระเงิน</td>";
                                                 }elseif ($row['regis_payment_status'] == 1) {
                                                     echo "<td class='text-center mt-2  badge badge-info'>ชำระเงินแล้ว</td>";
+                                                }elseif ($row['regis_payment_status'] == 9) {
+                                                    echo "<td class='text-center mt-2  badge badge-danger'>ยกเลิก</td>";
                                                 }
                                             ?>
                                             <td class="text-center"> <a href="register_update.php?id=<?php echo $sent_id;?>" class="btn btn-info">Edit</a></td>
@@ -117,7 +119,8 @@
                     { "width": "5%", "targets": 0 },
                     // { "width": "40%", "targets": 1 },
                     // { "width": "15%", "targets": 4 }
-                ]
+                ],
+                "pageLength": 20
             });
         });
     </script>

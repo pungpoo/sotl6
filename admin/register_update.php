@@ -31,15 +31,17 @@
         $id = $_GET['id'];
         $stmt = $conn->query("SELECT * FROM register where id = '".$_GET['id']."' ");
         $row = $stmt->fetch();
-
+        $ee = date("Y-m-d");
+        echo $ee;
         if (isset($_POST['save'])) {
-            
+            $payment_date = date("Y-m-d");
             $payment = $_POST['payment_status'];
 
-            $sql = "UPDATE register SET regis_payment_status = :payment WHERE id = :id";
+            $sql = "UPDATE register SET regis_payment_status = :payment,regis_payment_date = :payment_date WHERE id = :id";
             $query = $conn->prepare($sql);
             $query->bindParam(":id",$id);
             $query->bindParam(":payment",$payment);
+            $query->bindParam(":payment_date",$payment_date);
             if ($query->execute()){
                 echo "<script> alert('Save complete'); </script>";
                 header('Refresh:0; url=register_info.php');
@@ -47,9 +49,6 @@
                 echo "<script> alert('Save Error'); </script>";
                 header('Refresh:0; url=register_info.php');
               }
-
-
-           
         }
     ?>
     <section class="bg-light" id="regis" style="margin-bottom: 200px;">
@@ -84,6 +83,8 @@
                                     </select>
                                    
                                 </div>
+                            </div>
+                           
                             </div>
                             <div class="form-group col-md-12">
                             <input type="submit" name="save" class="btn btn-primary mb-2 btn-block" value="Save">
