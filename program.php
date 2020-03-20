@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="row col-md-12 mark4 mb-2">
-                <h5 class="section-heading pt-2 mx-auto">วันที่ 30 เมษายน 2563</h5>
+                <h5 class="section-heading pt-2 mx-auto">วันที่ 30 กรกฎาคม 2563</h5>
             </div>
             <div class="row col-md-12">
                 <div class="col-md-3  text-center">
@@ -93,8 +93,8 @@
                     <h6>ปาฐกถาบรรยายพิเศษ RDI for Disruptive Education</h6>
                 </div>
                 <div class="col-md-5">
-                    <h6>ดร. สุวิทย์ เมษินทรีย์ </h6>
-                    <p class="text-muted ">รัฐมนตรีว่าการกระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม (อว.) </p>
+                    <h6>รองศาสตราจารย์ นายแพทย์สรนิต ศิลธรรม</h6>
+                    <p class="text-muted ">ปลัดกระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม (อว.)</p>
                 </div>
             </div>
             <div class="row col-md-12">
@@ -262,7 +262,7 @@
 
             <!-- Day 2 -->
             <div class="row col-md-12 mark4 mb-2">
-                <h5 class="section-heading pt-2 mx-auto">วันที่ 1 พฤษภาคม 2563</h5>
+                <h5 class="section-heading pt-2 mx-auto">วันที่ 31 กรกฎาคม 2563</h5>
             </div>
             <div class="row col-md-12">
                 <div class="col-md-3  text-center">

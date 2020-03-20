@@ -41,9 +41,9 @@
                     <tr>
                       <td style="text-align: center;" width="150"></td>
                       <td width="240" align="center" style="text-align: center;"><strong>Early Bird</strong><br>
-                        <strong>(ลงทะเบียนและชำระเงินก่อนวันที่ 29 กุมภาพันธ์ 2563)</strong></td>
+                        <strong>(ลงทะเบียนและชำระเงินก่อนวันที่ 15 มิถุนายน 2563)</strong></td>
                       <td width="240" align="center" style="text-align: center;"><strong>ราคาปกติ </strong><br>
-                        <strong>(วันที่ 1 มีนาคม 2563 - วันที่ 20 เมษายน 2563)</strong></td>
+                        <strong>(วันที่ 16 มิถุนายน 2563 - วันที่ 20 กรกฎาคม 2563)</strong></td>
                     </tr>
                     <tr style="background-color: #d6c8bc !important">
                       <td width="150" align="center">ลงทะเบียนปกติ</td>
@@ -69,10 +69,10 @@
                   <a href="registration_regular.php" class="btn center btn-regis mb-3"><i class="fas fa-user"></i>
                     ลงทะเบียนแบบปกติ</a>
                 </div>
-                <!-- <div class="col-md-4 mx-auto">
+                <div class="col-md-4 mx-auto">
                   <a href="registration_group.php" class="btn center btn-regis mb-3"><i class="fas fa-users"></i>
                     ลงทะเบียนแบบกลุ่ม (สำหรับ 6 ท่าน)</a>
-                </div> -->
+                </div>
               </div>
               <div class="col-md-12 mark2 mb-2">2. ชำระเงิน</div>
               <div class="row ml-4">

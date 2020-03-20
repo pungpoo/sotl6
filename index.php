@@ -27,17 +27,19 @@
   <?php include "navbar.html"; ?>
   <section>
     <div>
-      <img src="img/SoTL6_Poster.jpg" class="center imgcover">
-      <div class="embed-responsive embed-responsive-16by9">
-      <iframe src="https://www.youtube.com/embed/G2nUA9AI_24" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-      <a class="btn btn-xl text-uppercase js-scroll-trigger center btn-regis" href="registration.php">
+      <img src="img/poster_V2.jpg" class="center imgcover mb-2">
+      <!-- <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://www.youtube.com/embed/G2nUA9AI_24" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div> -->
+      <a class="btn btn-xl text-uppercase js-scroll-trigger center btn-regis  mt-2" href="registration.php">
         <h2>Registration</h2>
+      </a>
+      <a class="btn btn-xl text-uppercase js-scroll-trigger center btn-info mt-2" href="register_list.php">
+        <h2>รายชื่อผู้ลงทะเบียน</h2>
       </a>
     </div>
   </section>
-
   <!-- keynote -->
   <section class="bg-light" style="padding-bottom: 50px; padding-top: 50px;">
     <div class="container">
@@ -250,6 +252,30 @@
     </div>
   </section>
   <!-- CO-HOST -->
+  <!-- Modal -->
+  <div class="modal fade modalcenter" id="memberModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div class="vertical-alignment-helper">
+      <div class="modal-dialog vertical-align-center modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <h1 class="text-center modal-text">แจ้งเลื่อนการจัดโครงการ</h1>
+            <h4 class="text-center">เนื่องจากสถานการณ์โรคติดต่ออันตรายร้ายแรง ไวรัส COVID-19
+              เพื่อความปลอดภัยของท่านผู้บริหารทุกท่าน
+              ทางสถาบันนวัตกรรมการเรียนรู้จึงขออนุญาตเลื่อนการอบรมออกไปเป็น
+              <br>
+            </h4>
+            <h2 class="text-center  modal-text">วันที่ 30 - 31 กรกฎาคม 2563 </h2>
+            <h4 class="text-center ">จึงขออภัยมา ณ โอกาสนี้ </h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-warning" data-dismiss="modal"><i class="fa fa-times-circle"></i>
+              Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <?php include "footer.html";?>
@@ -264,6 +290,10 @@
   <script src="js/agency.min.js"></script>
 
   <script>
+    $(document).ready(function () {
+      $('#memberModal').modal('show');
+    });
+
     var btn = $('#button');
     $(window).scroll(function () {
       if ($(window).scrollTop() > 300) {
@@ -279,7 +309,6 @@
       }, '300');
     });
   </script>
-
 </body>
 
 </html>
