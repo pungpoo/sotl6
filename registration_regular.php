@@ -20,6 +20,8 @@
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <!-- JS confirm -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
   <style>
     @media (min-width: 992px) {
       section {
@@ -398,6 +400,9 @@
   <script src="js/top_page.js"></script>
   <script src="js/check_regis.js"></script>
   <script src="js/preview.js"></script>
+  <!-- jsConfirm -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+
   <script type="text/javascript">
     function checkeng() {
       var obj = document.getElementById("fname_eng");
