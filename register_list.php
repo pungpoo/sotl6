@@ -62,11 +62,11 @@
                                     <br><?php echo $number_of_wait_pay; ?> </div>
                             </div>
                             <div class="col-md-12">
-                            <div class="col-md-3  m-1 text-center border-radius">
+                            <!-- <div class="col-md-3  m-1 text-center border-radius">
                                 <button type="button" class="btn btn-lg btn-info mb-2" data-toggle="modal" data-target="#exampleModal">
                                     ดูรายชื่อ workshop
                                 </button>
-                            </div>
+                            </div> -->
                                 <table id="table_register" class="table table-responsive display responsive no-wrap"
                                     style="width:100%">
                                     <thead>

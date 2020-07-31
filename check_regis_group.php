@@ -21,6 +21,8 @@
         $stmt = $conn->query("SELECT regis_group FROM register WHERE regis_group != 0 ORDER by id desc limit 1");
         $user = $stmt->fetch();
 
+        $regis_date = date("Y-m-d H:i:s");
+        $regis_news = "group";
         $x = 1;
         $a = 0;
         $b = "gr";
@@ -46,9 +48,11 @@
                 regis_workshop_day1,
                 regis_workshop_day2,
                 regis_group,
-                regis_payment_rate
+                regis_payment_rate,
+                regis_date,
+                regis_news
                 ) 
-                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");  
+                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");  
                 $stmt->bindParam(1, $_POST["title_".$x]);
                 $stmt->bindParam(2, $_POST["fname_".$x]);
                 $stmt->bindParam(3, $_POST["lname_".$x]);
@@ -69,6 +73,8 @@
                 $stmt->bindParam(18, $_POST["workshop_day2_".$x]);
                 $stmt->bindParam(19, $group_check);
                 $stmt->bindParam(20, $b);
+                $stmt->bindParam(21, $regis_date);
+                $stmt->bindParam(22, $regis_news);
 
                 try {
                     $stmt->execute();

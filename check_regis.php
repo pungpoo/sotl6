@@ -1,5 +1,6 @@
 <?php 
     include "connect.php";
+
     if (isset($_POST["submit"])) {
         $title_name = $_POST["title"];
         $fname = $_POST["fname"];
@@ -22,7 +23,7 @@
         $workshop_day1 = $_POST["workshop_day1"];
         $workshop_day2 = $_POST["workshop_day2"];
         $regis_group = "0";
-        $regis_payment_rate = "eb";
+        $regis_payment_rate = "re";
         $regis_date = date("Y-m-d H:i:s");
         $regis_news = $_POST["news"];
 
@@ -104,12 +105,12 @@
                  $register_number =  $conn->lastInsertId();
                  $register_number = sprintf('%04d',$register_number);
 
-                include "sendmail_regis.php";
-                //echo $register_number;
-                // echo "<script>
-				// 	window.location='index.php';
-				// 	alert('คุณได้ลงทะเบียนเรียบร้อยแล้ว กรุณาเข้าสู่ระบบ');
-				// 	</script>";
+                // include "sendmail_regis.php";
+                echo $register_number;
+                echo "<script>
+					window.location='index.php';
+					alert('คุณได้ลงทะเบียนเรียบร้อยแล้ว กรุณาเข้าสู่ระบบ');
+					</script>";
             } 
             catch(PDOException $e) {
                 // handle error 

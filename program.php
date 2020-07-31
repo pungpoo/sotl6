@@ -51,7 +51,7 @@
                 <div class="col-lg-12 text-center mb-3">
                     <h2 class="section-heading text-uppercase">กำหนดการ</h2>
                     <div class="col-lg-6 text-center mb-3 mx-auto">
-                        <a href="img/sotl6_Schedule_V4.pdf" class="btn center btn-lg  btn-regis mb-3" target="_blank">
+                        <a href="img/sotl6_Schedule_update.pdf" class="btn center btn-lg  btn-regis mb-3" target="_blank">
                             <i class="fas fa-download"></i> Download กำหนดการ </a>
                         <a href="img/sotl6_invitation.pdf" class="btn center btn-lg btn-info" target="_blank">
                             <i class="fas fa-download"></i> Download เอกสารโครงการ </a>
@@ -59,9 +59,9 @@
                 </div>
             </div>
             <div class="row col-md-12 mark4 mb-2">
-                <h5 class="section-heading pt-2 mx-auto">วันที่ 30 กรกฎาคม 2563</h5>
+                <h5 class="section-heading pt-2 mx-auto">วันที่ 10 กันยายน 2563</h5>
             </div>
-            <div class="row col-md-12">
+            <div class="row col-md-12" style="background-color: #d6c8bc">
                 <div class="col-md-3  text-center">
                     <h6>08.00 - 09.00 น.</h6>
                 </div>
@@ -69,14 +69,15 @@
                     <h6>ลงทะเบียน / ชมนิทรรศการ</h6>
                 </div>
             </div>
-            <div class="row col-md-12  pt-2" style="background-color: #d6c8bc">
+            <div class="row col-md-12  pt-2" >
                 <div class="col-md-3 text-center">
                     <h6>09.00 - 09.30 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมเพชรไพลิน ชั้น 11</p>
+                    <p class="text-muted ml-3">ห้องประชุมเบญจสิริ แกรนด์ บอลรูม ชั้น 5</p>
                 </div>
                 <div class="col-md-4">
                     <h6>- พิธีเปิดงานสัมมนา <br>
-                        - กล่าวเปิดงาน
+                        - กล่าวเปิดงาน <br>
+                        การแนะนำสถาบันนวัตกรรมการเรียนรู้ มหาวิทยาลัยมหิดล และแนะนำโครงการ SoTL
                     </h6>
                 </div>
                 <div class="col-md-5">
@@ -84,10 +85,10 @@
                     <p class="text-muted">รักษาการแทนอธิการบดีมหาวิทยาลัยมหิดล</p>
                 </div>
             </div>
-            <div class="row col-md-12  pt-2">
+            <div class="row col-md-12  pt-2" style="background-color: #d6c8bc">
                 <div class="col-md-3  text-center">
                     <h6>09.30 - 10.30 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมเพชรไพลิน ชั้น 11</p>
+                    <p class="text-muted ml-3">ห้องประชุมเบญจสิริ แกรนด์ บอลรูม ชั้น 5 </p>
                 </div>
                 <div class="col-md-4">
                     <h6>ปาฐกถาบรรยายพิเศษ RDI for Disruptive Education</h6>
@@ -102,16 +103,16 @@
                     <h6>10.30 - 10.45 น.</h6>
                 </div>
                 <div class="col-md-9">
-                    <h6>รับประทานอาหารว่าง</h6>
+                    <h6 class="workshop-text">รับประทานอาหารว่าง</h6>
                 </div>
             </div>
             <div class="row col-md-12  pt-2 " style="background-color: #d6c8bc">
                 <div class="col-md-3  text-center">
                     <h6>10.45 - 12.00 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมเพชรไพลิน ชั้น 11</p>
+                    <p class="text-muted ml-3">ห้องประชุมเบญจสิริ แกรนด์ บอลรูม ชั้น 5</p>
                 </div>
                 <div class="col-md-4">
-                    <h6>Distance Learning <br>(P, E, M, U- Learning, MOOC, SPOC, etc.) </h6>
+                    <h6>Distance Learning</h6>
                 </div>
                 <div class="col-md-5">
                     <h6>รองศาสตราจารย์ ดร. ฐาปนีย์ ธรรมเมธา </h6>
@@ -130,24 +131,26 @@
                     <h6>12.00 - 13.00 น.</h6>
                 </div>
                 <div class="col-md-9">
-                    <h6>รับประทานอาหารกลางวัน </h6>
+                    <h6 class="workshop-text">รับประทานอาหารกลางวัน ณ ห้องอาหารฟู๊ด เอ็กซเชนจ์ ชั้น 7</h6>
                 </div>
             </div>
+
+            <!-- Workshop****************************************************************************************************************** -->
             <div class="row col-md-12 pt-2" style="background-color: #d6c8bc">
                 <div class="col-md-3  text-center">
                     <h6>13.00 - 14.30 น.</h6>
                 </div>
                 <div class="col-md-9">
-                    <h6>Workshop</h6>
+                    <h6 class="workshop-text">Workshop</h6>
                 </div>
             </div>
             <div class="row col-md-12  pt-2">
                 <div class="col-md-3  text-center">
-                    <h6>13.00 - 14.30 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมเพชรไพลิน ชั้น 11</p>
+                    <!-- <h6>13.00 - 14.30 น.</h6> -->
+                    <p class="text-muted ml-3">ห้องประชุมเบญจสิริ 1 ชั้น 5</p>
                 </div>
                 <div class="col-md-4">
-                    <h6>W1 “Design Thinking”</h6>
+                    <h6>W1 “Design Thinking” (40 ที่นั่ง)</h6>
                 </div>
                 <div class="col-md-5">
                     <h6>ผู้ช่วยศาสตราจารย์ ดร. สุธารัตน์ โชติกประคัลภ์ </h6>
@@ -159,110 +162,110 @@
             </div>
             <div class="row col-md-12 pt-2" style="background-color: #d6c8bc">
                 <div class="col-md-3  text-center">
-                    <h6>13.00 - 14.30 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมอัมพวา 1 ชั้น 10</p>
+                    <!-- <h6>13.00 - 14.30 น.</h6> -->
+                    <p class="text-muted ml-3">ห้องประชุมเบญจสิริ 3 ชั้น 5</p>
                 </div>
                 <div class="col-md-4">
-                    <h6>W2 “Research to Innovation”</h6>
+                    <h6>W2 “Getting to Know AI and Its Practices for Teaching and Learning Assistant” (40 ที่นั่ง)</h6>
                 </div>
                 <div class="col-md-5">
-                    <h6>ผู้ช่วยศาสตราจารย์ ดร. วรพันธ์ คู่สกุลนิรันดร์</h6>
+                    <h6>รองศาสตราจารย์ ดร. วรพันธ์ คู่สกุลนิรันดร์</h6>
                     <p class="text-muted ">คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยมหิดล</p>
                 </div>
             </div>
-            <div class="row col-md-12 pt-2">
+            <div class="row col-md-12 pt-2" >
                 <div class="col-md-3  text-center">
-                    <h6>13.00 - 14.30 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมอัมพวา 2 ชั้น 10</p>
+                    <!-- <h6>13.00 - 14.30 น.</h6> -->
+                    <p class="text-muted ml-3">ห้องประชุมสยามบอลรูม ชั้น 8</p>
                 </div>
                 <div class="col-md-4">
-                    <h6>W3 “Contemplative Education: Learn Unlearn and Relearn”</h6>
+                    <h6>W3 “Contemplative Education: Learn Unlearn and Relearn” (35 ที่นั่ง)</h6>
                 </div>
                 <div class="col-md-5">
                     <h6>รองศาสตราจารย์ นายแพทย์ชัชวาลย์ ศิลปกิจ</h6>
-                    <p class="text-muted ">ผู้อำนวยการศูนย์จิตตปัญญาศึกษา มหาวิทยาลัยมหิดล</p>
+                    <p class="text-muted">ผู้อำนวยการศูนย์จิตตปัญญาศึกษา มหาวิทยาลัยมหิดล</p>
                 </div>
             </div>
             <div class="row col-md-12 pt-2" style="background-color: #d6c8bc">
                 <div class="col-md-3  text-center">
-                    <h6>13.00 - 14.30 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมอัมพวา 3 ชั้น 10</p>
+                    <!-- <h6>13.00 - 14.30 น.</h6> -->
+                    <p class="text-muted ml-3">ห้องประชุมเบญจสิริ 2 ชั้น 5</p>
                 </div>
                 <div class="col-md-4">
-                    <h6>W4 “Development and Implementation-Game Design-Board game”</h6>
+                    <h6>W4 “Development and Implementation-Game Design-Board game”  (35 ที่นั่ง)</h6>
                 </div>
                 <div class="col-md-5">
-                    <h6>ดร. เดชรัต สุขกำเนิด</h6>
-                    <p class="text-muted ">หัวหน้าภาควิชาเศรษฐศาสตร์เกษตรและทรัพยากร คณะเศรษฐศาสตร์
-                        มหาวิทยาลัยเกษตรศาสตร์</p>
+                    <h6>อาจารย์ ดร. เดชรัต สุขกำเนิด</h6>
+                    <p class="text-muted "> </p>
                 </div>
             </div>
+
             <div class="row col-md-12">
                 <div class="col-md-3  text-center">
                     <h6>14.30 - 14.45 น.</h6>
                 </div>
                 <div class="col-md-9">
-                    <h6>รับประทานอาหารว่าง</h6>
+                    <h6 class="workshop-text">รับประทานอาหารว่าง</h6>
                 </div>
             </div>
+            <!-- workshop********************************************************************************************************** -->
             <div class="row col-md-12 pt-2" style="background-color: #d6c8bc">
                 <div class="col-md-3  text-center">
                     <h6>14.45 - 16.00 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมพลอย ชั้น 11 </p>
+                    <p class="text-muted ml-3">ห้องประชุมเบญจสิริ 1 ชั้น 5 </p>
                 </div>
                 <div class="col-md-4">
-                    <h6>W5 “เนรมิตห้องเรียน ๔.๐ ด้วยเครื่องมือดิจิทัล”</h6>
+                    <h6>W5 “เนรมิตห้องเรียน 4.0 ด้วยเครื่องมือดิจิทัล” (40 ที่นั่ง)</h6>
                 </div>
                 <div class="col-md-5">
-                    <h6>ดร. กุลชัย กุลตวนิช</h6>
-                    <p class="text-muted ">ผู้ช่วยคณบดีคณะเทคโนโลยีการเกษตร
-                        สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</p>
+                    <h6>ผู้ช่วยศาสตราจารย์ ดร. กุลชัย กุลตวนิช </h6>
+                    <p class="text-muted ">ผู้ช่วยคณบดีคณะเทคโนโลยีการเกษตร สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง </p>
                 </div>
             </div>
             <div class="row col-md-12 pt-2">
                 <div class="col-md-3  text-center">
-                    <h6>14.45 - 16.00 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมอัมพวา 1 ชั้น 10</p>
+                    <!-- <h6>14.45 - 16.00 น.</h6> -->
+                    <p class="text-muted ml-3">ห้องประชุม สยามบอลรูม ชั้น 8</p>
                 </div>
                 <div class="col-md-4">
-                    <h6>W6 Micro Mastery: ประสบการณ์การพัฒนาการเรียนรู้เพื่อสร้าง “ความเก่งทีละเล็กทีละน้อย”</h6>
+                    <h6>W6 “Micro Mastery: ประสบการณ์การพัฒนาการเรียนรู้เพื่อสร้าง “ความเก่งทีละเล็กทีละน้อย” (35 ที่นั่ง)</h6>
                 </div>
                 <div class="col-md-5">
                     <h6>ดร. ก้องกาญจน์ วชิรพนัง</h6>
-                    <p class="text-muted ">ผู้อำนวยการสำนักงานห้องเรียนวิศว์-วิทย์ สถาบันการเรียนรู้
-                        มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</p>
+                    <p class="text-muted ">ผู้อำนวยการสำนักงานห้องเรียนวิศว์-วิทย์ สถาบันการเรียนรู้ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี </p>
                 </div>
             </div>
             <div class="row col-md-12 pt-2" style="background-color: #d6c8bc">
                 <div class="col-md-3  text-center">
-                    <h6>14.45 - 16.00 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมอัมพวา 2 ชั้น 10</p>
+                    <!-- <h6>14.45 - 16.00 น.</h6> -->
+                    <p class="text-muted ml-3">ห้องประชุมเบญจสิริ 2 ชั้น 5</p>
                 </div>
                 <div class="col-md-4">
-                    <h6>W7 “วิจัยจัดการเรียนการสอน”</h6>
+                    <h6>W7 “วิจัยจัดการเรียนการสอน” (35 ที่นั่ง)</h6>
                 </div>
                 <div class="col-md-5">
                     <h6>ผู้ช่วยศาสตราจารย์ ดร. จิตต์ภิญญา ชุมสาย ณ อยุธยา</h6>
-                    <p class="text-muted ">ผู้อำนวยการสำนักนวัตกรรมการเรียนรู้ มหาวิทยาลัยศรีนครินทรวิโรฒ </p>
+                    <p class="text-muted ">ผู้อำนวยการสำนักนวัตกรรมการเรียนรู้ มหาวิทยาลัยศรีนครินทรวิโรฒ</p>
                 </div>
             </div>
-            <div class="row col-md-12 pt-2">
+            <div class="row col-md-12 pt-2" >
                 <div class="col-md-3  text-center">
-                    <h6>14.45 - 16.00 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมอัมพวา 2 ชั้น 10</p>
+                    <!-- <h6>14.45 - 16.00 น.</h6> -->
+                    <p class="text-muted ml-3">ห้องประชุมเบญจสิริ 3 ชั้น 5</p>
                 </div>
                 <div class="col-md-4">
-                    <h6>W8 “สร้างห้องเรียนแห่งอนาคตด้วยเทคโนโลยี iPad และ Personalization of Learning”</h6>
+                    <h6>W8 “สร้างห้องเรียนแห่งอนาคตด้วยเทคโนโลยี iPad และ Personalization of Learning” (40 ที่นั่ง)</h6>
                 </div>
                 <div class="col-md-5">
-                    <h6>คุณปัญชสา เชาวน์ชูเวชช </h6>
-                    <p class="text-muted ">Apple Professional Learning Provider UFicon Co., Ltd.</p>
+                    <h6>คุณปัญชสา เชาวน์ชูเวชช</h6>
+                    <p class="text-muted ">Apple Professional Learning Provider UFicon Co., Ltd. </p>
                 </div>
             </div>
+            
 
-            <!-- Day 2 -->
+            <!------------------------------------------------------------ Day 2 ------------------------------------------------------------>
             <div class="row col-md-12 mark4 mb-2">
-                <h5 class="section-heading pt-2 mx-auto">วันที่ 31 กรกฎาคม 2563</h5>
+                <h5 class="section-heading pt-2 mx-auto">วันที่ 11 กันยายน 2563</h5>
             </div>
             <div class="row col-md-12">
                 <div class="col-md-3  text-center">
@@ -275,7 +278,7 @@
             <div class="row col-md-12  pt-2" style="background-color: #d6c8bc">
                 <div class="col-md-3 text-center">
                     <h6>09.00 - 10.00 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมเพชรไพลิน ชั้น 11</p>
+                    <p class="text-muted ml-3">ห้องประชุมเบญจสิริ แกรนด์ บอลรูม ชั้น 5</p>
                 </div>
                 <div class="col-md-4">
                     <h6>ปาฐกถาพิเศษ “Cognitive Neuroscience for Education”</h6>
@@ -290,13 +293,13 @@
                     <h6>10.00 - 10.15 น.</h6>
                 </div>
                 <div class="col-md-9">
-                    <h6>รับประทานอาหารว่าง</h6>
+                    <h6 class="workshop-text">รับประทานอาหารว่าง</h6>
                 </div>
             </div>
             <div class="row col-md-12  pt-2" style="background-color: #d6c8bc">
                 <div class="col-md-3 text-center">
                     <h6>10.15 - 12.00 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมเพชรไพลิน ชั้น 11</p>
+                    <p class="text-muted ml-3">ห้องประชุมเบญจสิริ แกรนด์ บอลรูม ชั้น 5</p>
                 </div>
                 <div class="col-md-4">
                     <h6>Knowledge Sharing : Innovation for Teaching and Learning</h6>
@@ -320,13 +323,13 @@
                     <h6>12.00 - 13.00 น.</h6>
                 </div>
                 <div class="col-md-9">
-                    <h6>รับประทานอาหารกลางวัน</h6>
+                    <h6 class="workshop-text">รับประทานอาหารกลางวัน ณ ห้องอาหารฟู๊ด เอ็กซเชนจ์ ชั้น 7</h6>
                 </div>
             </div>
             <div class="row col-md-12  pt-2" style="background-color: #d6c8bc">
                 <div class="col-md-3 text-center">
                     <h6>13.00 - 14.30 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมเพชรไพลิน ชั้น 11</p>
+                    <p class="text-muted ml-3">ห้องประชุมเบญจสิริ แกรนด์ บอลรูม ชั้น 5</p>
                 </div>
                 <div class="col-md-4">
                     <h6>เสวนา “Application of Cognitive Neuroscience for Disruptive Education”</h6>
@@ -343,7 +346,7 @@
             <div class="row col-md-12  pt-2">
                 <div class="col-md-3 text-center">
                     <h6>14.30 - 15.15 น.</h6>
-                    <p class="text-muted ml-3">ห้องประชุมเพชรไพลิน ชั้น 11</p>
+                    <p class="text-muted ml-3">ห้องประชุมเบญจสิริ แกรนด์ บอลรูม ชั้น 5</p>
                 </div>
                 <div class="col-md-9">
                     <h6>สรุปกิจกรรม มอบของรางวัลแก่ผู้เข้าร่วม และพิธีปิดงานสัมมนา</h6>
@@ -359,7 +362,7 @@
                     <h6>15.15 - 15.30 น.</h6>
                 </div>
                 <div class="col-md-9">
-                    <h6>รับประทานอาหารว่าง</h6>
+                    <h6 class="workshop-text"> รับประทานอาหารว่าง</h6>
                 </div>
             </div>
         </div>

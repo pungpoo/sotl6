@@ -22,6 +22,7 @@
   <link href="css/style.css" rel="stylesheet">
   <!-- JS confirm -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+
   <style>
     @media (min-width: 992px) {
       section {
@@ -236,9 +237,9 @@
                     </div>
                     <!-- Day 1 -->
                     <div class="form-group ml-3">
-                      <label style="margin-bottom: -5px;">วันพฤหัสบดีที่ 30 เมษายน พ.ศ. 2563 (13.00 - 14.30
+                      <label style="margin-bottom: -5px;">วันที่ 10 กันยายน พ.ศ. 2563 (13.00 - 14.30
                         น.)</label><br>
-                      <label class=" text-muted">Thursday 30 April, 2020 (13.00 - 14.30 hr.)</label>
+                      <label class=" text-muted">Monday 10 September, 2020 (13.00 - 14.30 hr.)</label>
                       <div class="custom-control  custom-radio">
                         <input type="radio" class="custom-control-input" id="workshop_day1_1" name="workshop_day1"
                           value="w1">
@@ -250,8 +251,7 @@
                       <div class="custom-control  custom-radio">
                         <input type="radio" class="custom-control-input" id="workshop_day1_2" name="workshop_day1"
                           value="w2">
-                        <label class="custom-control-label" for="workshop_day1_2">Workshop 2 : Research to
-                          Innovation <span class="badge badge-warning">เหลือที่นั่งอีก
+                        <label class="custom-control-label" for="workshop_day1_2">Workshop 2 : Getting to Know AI and Its Practices for Teaching and Learning Assistant <span class="badge badge-warning">เหลือที่นั่งอีก
                           <?php echo $workshop_balance_w2;?>
                             ที่</span></label>
                       </div>
@@ -279,9 +279,9 @@
                     </div>
                     <!-- Day 2 -->
                     <div class="form-group ml-3">
-                      <label style="margin-bottom: -5px;">วันพฤหัสบดีที่ 30 เมษายน พ.ศ. 2563 (14.45 - 16.00
+                      <label style="margin-bottom: -5px;">วันที่ 10 กันยายน พ.ศ. 2563 (14.45 - 16.00
                         น.)</label><br>
-                      <label class=" text-muted">Thursday 30 April, 2020 (14.45 - 16.00 hr.)</label>
+                      <label class=" text-muted">Monday 10 September, 2020 (14.45 - 16.00 hr.)</label>
                       <div class="custom-control  custom-radio">
                         <input type="radio" class="custom-control-input" id="workshop_day2_1" name="workshop_day2"
                           value="w5">
@@ -333,10 +333,10 @@
                     <!-- Group of material radios - option 1 -->
                     <div class="pl-3">
                       <div class="custom-control">
-                        <label>- Early Bird 2,500 บาท <sup class="bg-danger border-radius">**Active Now**</sup> </label>
+                        <label>- <del>Early Bird 2,500 บาท </del></label>
                       </div>
                       <div class="custom-control">
-                        <label>- Regular 3,000 บาท</label>
+                        <label>- Regular 3,000 บาท  <sup class="bg-danger border-radius">**Active Now**</sup></label>
                       </div>
                       <div class="custom-control">
                         <label>- Group (สำหรับผู้ลงทะเบียน 6 ท่าน) 16,000 บาท </label>
@@ -366,15 +366,16 @@
                     <label ><b>ที่อยู่ในการออกใบเสร็จ (Billing Information) </b>: <br><span class="badge badge-info" id="preview_bill_info"></span></label><br>
                     <label ><b>อาหาร (Food) </b>: <script> </script> <span class="badge badge-info" id="preview_food"></span></label><br>
                     <label ><b>แพ้อาหาร(Food Allergy) </b>: <span class="badge badge-info" id="preview_food_allergy"></span></label><br>
-                    <label ><b>Workshop 30 April, 2020 (13.00 - 14.30 hr.)</b>: <span class="badge badge-info" id="preview_workshop_day1"></span></label><br>
-                    <label ><b>Workshop 30 April, 2020 (14.45 - 16.00 hr.)</b>: <span class="badge badge-info" id="preview_workshop_day2"></span></label><br>
-                    <label ><b>ค่าลงทะเบียน </b>: <span class="badge badge-info" id="">Early Bird 2,500 บาท</span></label><br>
+                    <label ><b>Workshop 3 August, 2020 (13.00 - 14.30 hr.)</b>: <span class="badge badge-info" id="preview_workshop_day1"></span></label><br>
+                    <label ><b>Workshop 3 August, 2020 (14.45 - 16.00 hr.)</b>: <span class="badge badge-info" id="preview_workshop_day2"></span></label><br>
+                    <label ><b>ค่าลงทะเบียน </b>: <span class="badge badge-info" id="">Early Bird 3,000 บาท</span></label><br>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                     <!-- <a href="#" id="submit" class="btn btn-success success">Submit</a> -->
-                    <input type="submit" name="submit" id="btnsubmit" class="btn btn-success"
-              value="ยืนยันการลงทะเบียน">
+                    <!-- <div class="g-recaptcha" data-callback="makeaction" data-sitekey="6Lf5fLgZAAAAAO9DVwiTXPzRSYH6xbAe_CnEDT8M" ?>""></div> -->
+                    <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                    <input type="submit" name="submit" id="btnsubmit" class="btn btn-success" value="ยืนยันการลงทะเบียน" >
                   </div>
                 </div>
               </div>
@@ -402,6 +403,23 @@
   <script src="js/preview.js"></script>
   <!-- jsConfirm -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+
+  <!-- recapcha -->
+  <!-- <script src="https://www.google.com/recaptcha/api.js?render=6Lf5fLgZAAAAAO9DVwiTXPzRSYH6xbAe_CnEDT8M"></script> -->
+  <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script>
+      function onClick(e) {
+        e.preventDefault();
+        grecaptcha.ready(function() {
+          grecaptcha.execute('6Lf5fLgZAAAAAO9DVwiTXPzRSYH6xbAe_CnEDT8M', {action: 'submit'})
+          .then(function(token) {
+              console.log(token);
+          });
+        });
+      }
+  </script>
+
 
   <script type="text/javascript">
     function checkeng() {

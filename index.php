@@ -206,30 +206,31 @@
     </div>
   </section>
   <!-- VENUE -->
+
   <section class="page-section" id="contact">
     <div class="container mt-4">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">สถานที่จัดงาน</h2>
-          <h3 class="section-heading">WINDSOR SUITES HOTEL</h3>
-          <h4 class="section-heading">10/1 Sukhumvit Soi 20, Sukhumvit Road, Bangkok, Thailand</h4>
+          <h3 class="section-heading">NOVOTEL BANGKOK SUKHUMVIT 20</h3>
+          <h4 class="section-heading">19/9 Soi Sukhumvit 20, Sukhumvit Road, Klongtoey, 10110 Bangkok, Thailand</h4>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
           <div class="row">
             <div class="col-md-12">
-              <img src="img/windsor.jpg" alt="" class="center responsive mb-2">
+              <img
+                src="https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/25/2016/07/08093722/Ballroom-theatre.jpg"
+                alt="" class="center responsive mb-2">
             </div>
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center">
               <div id="success"></div>
-              <a class="btn btn-lg btn-regis mt-1" href="http://www.windsorsuiteshotel.com/" target="_blank">
+              <a class="btn btn-lg btn-regis mt-1" href="https://www.novotelbangkoksukhumvit20.com/th/" target="_blank">
                 <h5>เว็บไซต์โรงแรม</h5>
               </a>
-              <a class="btn btn-lg btn-regis mt-1"
-                href="https://www.google.co.th/maps/place/Windsor+Suites+Hotel+Bangkok/@13.7332436,100.561325,17z/data=!3m1!4b1!4m2!3m1!1s0x30e29eef17783845:0x660e5ddf664b2323"
-                target="_blank">
+              <a class="btn btn-lg btn-regis mt-1" href="https://goo.gl/maps/8bpZdP2HjwhUYNHw5" target="_blank">
                 <h5>Google Map</h5>
               </a>
             </div>
@@ -265,7 +266,7 @@
               ทางสถาบันนวัตกรรมการเรียนรู้จึงขออนุญาตเลื่อนการอบรมออกไปเป็น
               <br>
             </h4>
-            <h2 class="text-center  modal-text">วันที่ 30 - 31 กรกฎาคม 2563 </h2>
+            <h2 class="text-center  modal-text">วันที่ 10 - 11 กันยายน 2563 </h2>
             <h4 class="text-center ">จึงขออภัยมา ณ โอกาสนี้ </h4>
           </div>
           <div class="modal-footer">

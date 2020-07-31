@@ -61,7 +61,7 @@
       <!-- day 1 -->
       <div class="row mb-2">
         <div class="col-md-12 mark4 mb-2">
-          <h5 class="section-heading pt-2">วันที่ 30 กรกฎาคม 2563 (เวลา 13.00 - 14.30 น.)</h5>
+          <h5 class="section-heading pt-2">วันที่ 10 กันยายน 2563 (เวลา 13.00 - 14.30 น.)</h5>
         </div>
       </div>
       <div class="row ml-4 mb-4">
@@ -71,27 +71,27 @@
         <p class="text-muted ml-3">ผู้ช่วยศาสตราจารย์ ดร. สุธารัตน์ โชติกประคัลภ์ และ อ. นัดดาวดี นุ่มนาค </p>
         <p class="text-muted ml-3">ฝ่ายวิชาบูรณาการ หมวดวิชาศึกษาทั่วไป มหาวิทยาลัยเกษตรศาสตร์ </p>
         <div class="col-12">
-          <h6>Workshop2 : Research to Innovation</h6>
+          <h6>Workshop2 : Getting to Know AI and Its Practices for Teaching and Learning Assistant</h6>
         </div>
-        <p class="text-muted ml-3">ผู้ช่วยศาสตราจารย์ ดร. วรพันธ์ คู่สกุลนิรันดร์</p>
+        <p class="text-muted ml-3">รองศาสตราจารย์ ดร. วรพันธ์ คู่สกุลนิรันดร์</p>
         <p class="text-muted ml-3">คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยมหิดล</p>
         <div class="col-12">
-          <h6>Workshop3 : Contemplative education: Learn Unlearn and Relearn</h6>
+          <h6>Workshop3 : Contemplative Education: Learn Unlearn and Relearn</h6>
         </div>
         <p class="text-muted ml-3">รองศาสตราจารย์ นายแพทย์ชัชวาลย์ ศิลปกิจ</p>
         <p class="text-muted ml-3">ผู้อำนวยการศูนย์จิตตปัญญาศึกษา มหาวิทยาลัยมหิดล</p>
         <div class="col-12">
-          <h6>Workshop4 : Development and Implementation-Game design-Board game</h6>
+          <h6>Workshop4 : Development and Implementation-Game Design-Board game</h6>
         </div>
-        <p class="text-muted ml-3">รองศาสตราจารย์ นายแพทย์ชัชวาลย์ ศิลปกิจ</p>
-        <p class="text-muted ml-3">หัวหน้าภาควิชาเศรษฐศาสตร์เกษตรและทรัพยากร
-          มหาวิทยาลัยเกษตรศาสตร์
-        </p>
+        <p class="text-muted ml-3">อาจารย์ ดร. เดชรัต สุขกำเนิด</p>
+        <p class="text-muted ml-3"> </p>
+        
+        
       </div>
       <!-- day 2 -->
       <div class="row mb-2">
         <div class="col-md-12 mark4 mb-2">
-          <h5 class="section-heading  pt-2">วันที่ 30 กรกฎาคม 2563(เวลา 14.45 - 16.00 น.)</h5>
+          <h5 class="section-heading  pt-2">วันที่ 10 กันยายน 2563(เวลา 14.45 - 16.00 น.)</h5>
         </div>
       </div>
       <div class="row ml-4 ">
@@ -101,11 +101,11 @@
         <p class="text-muted ml-3">ดร. กุลชัย กุลตวนิช </p>
         <p class="text-muted ml-3">ผู้ช่วยคณบดีคณะเทคโนโลยีการเกษตร สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</p>
         <div class="col-12">
-          <h6>Workshop6 : Micro mastery: ประสบการณ์การพัฒนาการเรียนรู้เพื่อสร้าง “ความเก่งทีละเล็กทีละน้อย</h6>
+          <h6>Workshop6 : Micro Mastery: ประสบการณ์การพัฒนาการเรียนรู้เพื่อสร้าง “ความเก่งทีละเล็กทีละน้อย</h6>
         </div>
-        <p class="text-muted ml-3">ดร. ก้องกาญจน์ กาญจนพนัง</p>
-        <p class="text-muted ml-3">คณะศิลปศาสตร์ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</p>
-
+        <p class="text-muted ml-3">ดร. ก้องกาญจน์ วชิรพนัง </p>
+        <p class="text-muted ml-3">ผู้อำนวยการสำนักงานห้องเรียนวิศว์-วิทย์ สถาบันการเรียนรู้
+          มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</p>
         <div class="col-12">
           <h6>Workshop7 : วิจัยจัดการเรียนการสอน</h6>
         </div>
@@ -114,8 +114,9 @@
         <div class="col-12">
           <h6>Workshop8 : สร้างห้องเรียนแห่งอนาคตด้วยเทคโนโลยี iPad และ Personalization of Learning</h6>
         </div>
-        <p class="text-muted ml-3">คุณปัญชสา เชาวน์ชูเวชช </p>
+        <p class="text-muted ml-3">คุณปัญชสา เชาวน์ชูเวชช</p>
         <p class="text-muted ml-3">Apple Professional Learning Provider UFicon Co., Ltd.</p>
+        
       </div>
     </div>
     </div>

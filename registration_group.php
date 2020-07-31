@@ -44,7 +44,7 @@
 </head>
 <body id="page-top">
   <a id="button"></a>
-  <?php include "navbar.html"; include "connect.php";  include "workshop_count.php";  ?>
+  <?php include "navbar.html"; include "connect.php";  include "workshop_count2.php";  ?>
   <section class="bg-light" id="regis">
     <div class="container ">
       <div class="row">
@@ -229,7 +229,7 @@
                             <label class="custom-control-label" for="workshop_day1_1_user1">Workshop 1 : Design Thinking <span
                                 class="badge badge-warning">เหลือที่นั่งอีก
                                 <?php 
-                              if (empty($workshop_balance[0])){ echo "50"; }
+                              if (empty($workshop_balance_1)){ echo "50"; }
                               else { echo $workshop_balance[0]; }
                             ?>
                                 ที่</span></label>

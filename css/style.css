@@ -91,6 +91,9 @@ footer{
       overflow: hidden;
       text-align: center;
     }
+    .workshop-text{
+      color: #cc0000;
+    }
   }
   @media (max-width: 768px) {
     section {
@@ -99,12 +102,18 @@ footer{
     .card {
       margin-top: 70px;
     }
+    .workshop-text{
+      color: #cc0000;
+    }
  
   }
   @media (max-width: 576px) {
       .cohost-footer {
       width:30%;
       height: auto;
+    }
+    .workshop-text{
+      color: #cc0000;
     }
   }
   /* 
@@ -123,6 +132,10 @@ footer{
     text-align: center;
     /* width:50%; */
     /* height: auto; */
+  }
+  .workshop-text{
+    color: #cc0000;
+   text-align: center;
   }
   
 }
@@ -186,7 +199,7 @@ footer{
     height: auto;
   }
   .imgcover {
-  width: 100%;
+  width: 70%;
   height: auto;
   background-image: url('../img/header-bg.jpg');
   background-size: 100% 100%;
@@ -243,3 +256,4 @@ footer{
 .modal-text{
   color: red;
 }
+

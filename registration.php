@@ -41,13 +41,13 @@
                     <tr>
                       <td style="text-align: center;" width="150"></td>
                       <td width="240" align="center" style="text-align: center;"><strong>Early Bird</strong><br>
-                        <strong>(ลงทะเบียนและชำระเงินก่อนวันที่ 15 มิถุนายน 2563)</strong></td>
+                        <strong>(ลงทะเบียนและชำระเงินก่อนวันที่ 22 กรกฎาคม 2563)</strong></td>
                       <td width="240" align="center" style="text-align: center;"><strong>ราคาปกติ </strong><br>
-                        <strong>(วันที่ 16 มิถุนายน 2563 - วันที่ 20 กรกฎาคม 2563)</strong></td>
+                        <strong>(วันที่ 23 กรกฎาคม 2563 - วันที่ 21 สิงหาคม 2563)</strong></td>
                     </tr>
                     <tr style="background-color: #d6c8bc !important">
                       <td width="150" align="center">ลงทะเบียนปกติ</td>
-                      <td width="240" align="center">2,500&nbsp; บาท</td>
+                      <td width="240" align="center"><del>2,500&nbsp; บาท</del></td>
                       <td width="240" align="center">3,000&nbsp; บาท</td>
                     </tr>
                     <tr>
@@ -88,8 +88,8 @@
               <div class="col-md-12 mark3 mb-2">3. รอเจ้าหน้าที่ตรวจสอบ</div>
               <div class="row ml-4">
                 <p class=" ml-2"><i class="fas fa-angle-double-right"></i>
-                  เมื่อชำระค่าลงทะเบียนและส่งหลักฐานการชำระเงินเรียบร้อยแล้ว ให้รอเจ้าหน้าที่ทำการตัวจสอบและ Update
-                  สถานะการลงทะเบียน โดยสามารถรวจสอบรายชื่อการลงทะเบียนได้จาก</p>
+                  เมื่อชำระค่าลงทะเบียนและส่งหลักฐานการชำระเงินเรียบร้อยแล้ว ให้รอเจ้าหน้าที่ทำการตรวจสอบและ Update
+                  สถานะการลงทะเบียน โดยสามารถตรวจสอบรายชื่อการลงทะเบียนได้จาก</p>
               </div>
               <div class="col-md-4 mx-auto">
                 <a href="register_list.php" class="btn center btn-regis mb-3"><i class="fas fa-list-ul"></i>
